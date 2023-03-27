@@ -1,0 +1,12 @@
+@font-face {
+
+    font-family: Museo;
+    
+    font-weight: bold;
+    
+    src: url("http://sodiedoces.com.br/app/webroot/fonts/Museo100-Regular.otf") format("opentype");
+        
+}
+body{
+    font-family: 'Museo', sans-serif !important;
+}

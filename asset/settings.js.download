@@ -1,0 +1,186 @@
+var map_cfg = {
+    "mapWidth": "100%",
+    "mapHeight": 600,
+    
+    "shadowWidth": 1,
+    "shadowOpacity": 0.1,
+    "shadowColor": "black",
+    "shadowX": 0,
+    "shadowY": 0,
+    
+    "iPhoneLink": true,
+    "isNewWindow": false,
+    
+    "zoomEnable": false,
+    "zoomEnableControls": false,
+    "zoomIgnoreMouseScroll": false,
+    "zoomMax": 8,
+    "zoomStep": 0.8,
+    
+    "borderColor": "#ffffff",
+    "borderColorOver": "#ffffff",
+    "borderOpacity": 0.2,
+    
+    "nameColor": "#ffffff",
+    "nameColorOver": "#ffffff",
+    "nameFontSize": "10px",
+    "nameFontWeight": "bold",
+    
+    "nameStroke": true,
+    "nameStrokeColor": "#000000",
+    "nameStrokeColorOver": "#000000",
+    "nameStrokeWidth": 1,
+    "nameStrokeOpacity": 0.2,
+    
+    "overDelay": 300,
+    "nameAutoSize": false,
+    
+    "tooltipOnHighlightIn": false,
+    "freezeTooltipOnClick": false,
+    
+    "mapId": "2cE6Li",
+    
+    "map_data": {
+    "st1": {
+        "id": 1,
+        "name": "Channel Islands",
+        "shortname": "Channel\nIslands",
+        "link": "http://www.scrapcarnetwork.org/scrap-car-areas",
+        "comment": "",
+        "image": "",
+        "color_map": "#bed81f",
+        "color_map_over": "#a6bd16"
+    },
+    "st2": {
+        "id": 2,
+        "name": "East Midlands",
+        "shortname": "East\nMidlands",
+        "link": "http://www.scrapcarnetwork.org/scrap-car-areas#eastmidlands",
+        "comment": "",
+        "image": "",
+        "color_map": "#bed81f",
+        "color_map_over": "#a6bd16"
+    },
+    "st3": {
+        "id": 3,
+        "name": "Eastern England",
+        "shortname": "Eastern\nEngland",
+        "link": "http://www.scrapcarnetwork.org/scrap-car-areas#southwest",
+        "comment": "",
+        "image": "",
+        "color_map": "#bed81f",
+        "color_map_over": "#a6bd16"
+    },
+    "st4": {
+        "id": 4,
+        "name": "Greater London",
+        "shortname": "Greater London",
+        "link": "http://www.scrapcarnetwork.org/scrap-car-areas#london",
+        "comment": "",
+        "image": "",
+        "color_map": "#bed81f",
+        "color_map_over": "#a6bd16"
+    },
+    "st5": {
+        "id": 5,
+        "name": "Isle Of Man",
+        "shortname": "Isle Of Man",
+        "link": "http://www.scrapcarnetwork.org/scrap-car-areas",
+        "comment": "",
+        "image": "",
+        "color_map": "#bed81f",
+        "color_map_over": "#a6bd16"
+    },
+    "st6": {
+        "id": 6,
+        "name": "North East",
+        "shortname": "North\nEast",
+        "link": "http://www.scrapcarnetwork.org/scrap-car-areas#northeast",
+        "comment": "",
+        "image": "",
+        "color_map": "#bed81f",
+        "color_map_over": "#a6bd16"
+    },
+    "st7": {
+        "id": 7,
+        "name": "North West",
+        "shortname": "North\nWest",
+        "link": "http://www.scrapcarnetwork.org/scrap-car-areas#northwest",
+        "comment": "",
+        "image": "",
+        "color_map": "#bed81f",
+        "color_map_over": "#a6bd16"
+    },
+    "st8": {
+        "id": 8,
+        "name": "Northern Ireland",
+        "shortname": "Northern Ireland",
+        "link": "http://www.scrapcarnetwork.org/scrap-car-areas",
+        "comment": "",
+        "image": "",
+        "color_map": "#bed81f",
+        "color_map_over": "#a6bd16"
+    },
+    "st9": {
+        "id": 9,
+        "name": "Scotland",
+        "shortname": "Scotland",
+        "link": "http://www.scrapcarnetwork.org/scrap-car-areas#northscotland",
+        "comment": "",
+        "image": "",
+        "color_map": "#bed81f",
+        "color_map_over": "#a6bd16"
+    },
+    "st10": {
+        "id": 10,
+        "name": "South East",
+        "shortname": "South East",
+        "link": "http://www.scrapcarnetwork.org/scrap-car-areas#london",
+        "comment": "",
+        "image": "",
+        "color_map": "#bed81f",
+        "color_map_over": "#a6bd16"
+    },
+    "st11": {
+        "id": 11,
+        "name": "South West",
+        "shortname": "South West",
+        "link": "http://www.scrapcarnetwork.org/scrap-car-areas#southwest",
+        "comment": "",
+        "image": "",
+        "color_map": "#bed81f",
+        "color_map_over": "#a6bd16"
+    },
+    "st12": {
+        "id": 12,
+        "name": "Wales",
+        "shortname": "Wales",
+        "link": "http://www.scrapcarnetwork.org/scrap-car-areas#wales",
+        "comment": "",
+        "image": "",
+        "color_map": "#bed81f",
+        "color_map_over": "#a6bd16"
+    },
+    "st13": {
+        "id": 13,
+        "name": "West Midlands",
+        "shortname": "West\nMidlands",
+        "link": "http://www.scrapcarnetwork.org/scrap-car-areas#eastmidlands",
+        "comment": "",
+        "image": "",
+        "color_map": "#bed81f",
+        "color_map_over": "#a6bd16"
+    },
+    "st14": {
+        "id": 14,
+        "name": "Yorkshire and the Humber",
+        "shortname": "Yorkshire and\nthe Humber",
+        "link": "http://www.scrapcarnetwork.org/scrap-car-areas#yorkshire",
+        "comment": "",
+        "image": "",
+        "color_map": "#bed81f",
+        "color_map_over": "#a6bd16"
+    }
+}
+}
+;
